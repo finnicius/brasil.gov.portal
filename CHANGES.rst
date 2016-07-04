@@ -4,6 +4,9 @@ Histórico de Alterações
 1.1.5 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
+* Adiciona diretiva do plone4.csrffixes no dependencies.zcml (closes `#279`_).
+  [idgserpro]
+
 * Upgrade step que instala profile do brasil.gov.agenda se não estiver
   instalado e atualiza os estilos do collective.cover(closes `#154`_).
   [idgserpro]
@@ -458,3 +461,4 @@ Histórico de Alterações
 .. _`#241`: https://github.com/plonegovbr/brasil.gov.portal/issues/241
 .. _`#242`: https://github.com/plonegovbr/brasil.gov.portal/issues/242
 .. _`#275`: https://github.com/plonegovbr/brasil.gov.portal/issues/275
+.. _`#279`: https://github.com/plonegovbr/brasil.gov.portal/issues/279

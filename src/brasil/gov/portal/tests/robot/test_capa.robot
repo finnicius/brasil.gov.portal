@@ -14,6 +14,16 @@ ${banner_tile_location}  'collective.cover.banner'
 ${tile_selector}  div.tile-container div.tile
 ${document_selector}  .ui-draggable .contenttype-document
 
+*** Keywords ***
+# Metodo retirado do teste cover.robot do collective.cover para sobrescrever a chamada
+# deste metodo aqui no test_capa.robot, esta customização é necessária pois temos que inserir
+# Sleep para que o teste execute sem erros no travis
+Click Add Cover
+    Open Add New Menu
+    Click Link  css=a#collective-cover-content
+    Wait Until Page Contains  Add Cover
+    Sleep  1s  Wait for js
+
 *** Test Cases ***
 
 Criar nova capa
